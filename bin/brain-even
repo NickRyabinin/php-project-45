@@ -11,8 +11,6 @@ if (file_exists($autoloadPath1)) {
 
 use BrainGames\Games\Even;
 
-Even\start();
-
-
+Even\game('Nick');
 
 
