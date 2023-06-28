@@ -12,3 +12,7 @@ brain-calc:
 	./bin/brain-calc
 brain-prime:
 	./bin/brain-prime
+brain-gcd:
+	./bin/brain-gcd
+brain-progression:
+	./bin/brain-progression
