@@ -3,7 +3,8 @@
     "bin": [
 	"bin/brain-games",
 	"bin/brain-even",
-	"bin/brain-calc"
+	"bin/brain-calc",
+    "bin/brain-prime"
     ],
     "description": "Hexlet PHP Lvl1 educational project",
     "type": "project",
@@ -12,7 +13,8 @@
 	"files": [
             "src/Cli.php",
             "src/Games/Even.php",
-            "src/Games/Calc.php"
+            "src/Games/Calc.php",
+            "src/Games/Prime.php"
     ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
