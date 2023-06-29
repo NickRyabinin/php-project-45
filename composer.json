@@ -1,9 +1,9 @@
 {
     "name": "hexlet/code",
     "bin": [
-	"bin/brain-games",
-	"bin/brain-even",
-	"bin/brain-calc",
+	    "bin/brain-games",
+	    "bin/brain-even",
+	    "bin/brain-calc",
         "bin/brain-prime",
         "bin/brain-gcd",
         "bin/brain-progression"
