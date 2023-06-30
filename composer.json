@@ -1,9 +1,9 @@
 {
     "name": "hexlet/code",
     "bin": [
-	    "bin/brain-games",
-	    "bin/brain-even",
-	    "bin/brain-calc",
+	"bin/brain-games",
+	"bin/brain-even",
+	"bin/brain-calc",
         "bin/brain-prime",
         "bin/brain-gcd",
         "bin/brain-progression"
@@ -18,7 +18,8 @@
             "src/Games/Calc.php",
             "src/Games/Prime.php",
             "src/Games/Gcd.php",
-            "src/Games/Progression.php"
+            "src/Games/Progression.php",
+            "src/Routine.php"
     ],
         "psr-4": {
             "Hexlet\\Code\\": "src/"
