@@ -9,9 +9,13 @@
 * Определение наибольшего общего делителя.
 * Определение простого числа.
 
+### Требования:
+php >= 8
+composer
+
 ### Установка:
-#### git clone git@github.com:NickRyabinin/php-project-45.git
-#### make install
+git clone git@github.com:NickRyabinin/php-project-45.git
+make install
 [![asciicast](https://asciinema.org/a/V9yJwogHGKExhxaLJ0JkJ7S0E.svg)](https://asciinema.org/a/V9yJwogHGKExhxaLJ0JkJ7S0E)
 
 ### Определение четного числа (make brain-even):
