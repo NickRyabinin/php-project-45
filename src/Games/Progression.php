@@ -4,7 +4,7 @@ namespace BrainGames\Games\Progression;
 
 use function BrainGames\Routine\gameRoutine;
 
-const GOAL = 'What number is missing in this progression?';
+const GOAL = 'What number is missing in the progression?';
 
 function game()
 {
@@ -27,3 +27,4 @@ function game()
 
     gameRoutine(GOAL, $gameRandomizer);
 }
+
