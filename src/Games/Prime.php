@@ -12,7 +12,8 @@ function game()
     $flag = false;
 
     for ($i = 2; $i < 100; $i++) {
-        for ($j = 2, $flag = true; $j < $i; $j++) {
+        for ($j = 2; $j < $i; $j++) {
+            $flag = true;
             if (($i % $j) === 0) {
                 $flag = false;
                 break;
