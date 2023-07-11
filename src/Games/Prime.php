@@ -9,6 +9,7 @@ const GOAL = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 function game()
 {
     $primeNumbers = [];
+    $flag = true;
 
     for ($i = 2; $i < 100; $i++) {
         for ($j = 2, $flag = true; $j < $i; $j++) {
@@ -17,14 +18,14 @@ function game()
                 break;
             }
         }
-        if ($flag) {
+        if ($flag === true) {
             $primeNumbers[] = $i;
         }
     }
 
     $gameRandomizer = function () use ($primeNumbers) {
         $numberToGuess = rand(2, 99);
-        $isPrime = (in_array($numberToGuess, $primeNumbers)) ? 'yes' : 'no';
+        $isPrime = (in_array($numberToGuess, $primeNumbers, false)) ? 'yes' : 'no';
         return [$numberToGuess, $isPrime];
     };
 
