@@ -13,7 +13,7 @@ const SUCCESS_QUESTION = 'Correct!';
 const FAIL_GAME = 'Let\'s try again, ';
 const FAIL_QUESTION = ' is wrong answer ;(. Correct answer was ';
 
-function gameRoutine($goal, $data)
+function gameRoutine(string $goal, callable $data)
 {
     line('Welcome to the Brain Games!');
     $playerName = prompt('May I have your name?');
