@@ -27,4 +27,3 @@ function game()
 
     gameRoutine(GOAL, $gameRandomizer);
 }
-
